@@ -1,13 +1,78 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<title>Chat</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="chat.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
+  <div class="container">
 
-<h1>Chat</h1>
-<input class="text">
-<button>Submit</button>
+    <div class="mesgs">
+      <div class="msg_history">
+        <div class="outgoing_msg">
+          <div class="sent_msg">
+            <p>Hi!</p>
+            <span class="time_date"> 11:01 AM | April 9</span>
+          </div>
+        </div>
+        <div class="incoming_msg">
+            <div class="received_msg">
+            <div class="received_withd_msg">
+              <p>Hello</p>
+              <span class="time_date"> 11:01 AM | Yesterday</span>
+            </div>
+          </div>
+        </div>
+        <div class="outgoing_msg">
+          <div class="sent_msg">
+            <p>I would like some practice with basketball</p>
+            <span class="time_date"> 11:01 AM | Today</span>
+          </div>
+        </div>
+        <div class="incoming_msg">
+          <div class="received_msg">
+            <div class="received_withd_msg">
+              <p>ok sure.</p>
+              <span class="time_date"> 11:01 AM | Today</span>
+            </div>
+          </div>
+        </div>
+        <div class="incoming_msg">
+            <div class="received_msg">
+              <div class="received_withd_msg">
+                <p>I would like some practice with Chinese</p>
+                <span class="time_date"> 11:01 AM | Today</span>
+              </div>
+            </div>
+          </div>
+        <div class="outgoing_msg">
+            <div class="sent_msg">
+              <p>thanks</p>
+              <span class="time_date"> 11:01 AM | Today</span>
+            </div>
+          </div>
+      </div>
+      <div class="type_msg">
+        <div class="input_msg_write">
+          <input type="text" class="write_msg" placeholder="Type a message" />
+          <button type="button">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  </div>
 </body>
+
 </html>
